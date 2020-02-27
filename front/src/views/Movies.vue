@@ -16,7 +16,7 @@
       <td>{{item.id}}</td>
       <td>{{item.name}}</td>
       <td>{{item.email}}</td>
-      <router-link to="/reservar">reservar</router-link>
+      <router-link to="/ver">reservar</router-link>
     </tr>
 
   </tbody>

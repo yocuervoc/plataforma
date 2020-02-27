@@ -29,10 +29,10 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Agregar.vue')
   },
   {
-    path: '/reservar',
-    name: 'reservar',
+    path: '/estadisticas',
+    name: 'estadisticas',
     
-    component: () => import(/* webpackChunkName: "about" */ '../views/Reservar.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Estadisticas.vue')
   },
   {
     path: '/opciones',
