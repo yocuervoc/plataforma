@@ -17,6 +17,11 @@
             v-model="poll.name">
             <input type="text" class="form-control my-2" placeholder ="Email"
             v-model="poll.email">
+            <input type="text" class="form-control my-2" placeholder ="Edad"
+            v-model="poll.edad">
+            <input type="text" class="form-control my-2" placeholder ="Sexo"
+            v-model="poll.sexo">
+            
             <br>
             <br>
 
@@ -68,7 +73,7 @@ export default {
     data(){
         
         return{
-            poll: {name: "", email: "", question1: ""},
+            poll: {name: "", email: "", edad: "", sexo: "", question1: ""},
             radio: null,
             calificacion:[
                 {value: 1, text: "1"},
