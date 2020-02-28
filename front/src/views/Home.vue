@@ -12,16 +12,16 @@
         <table class="table" :class="tabla">
         
         <tr>
-            <td><router-link to="/ver">1.inicio</router-link></td>
-            <td><router-link to="/ver">2.Registro</router-link></td>
-            <td><router-link to="/ver">3.ver estudiantes</router-link></td>
-            <td><router-link to="/ver">4.Realizar Encuesta</router-link></td>
+            <td><router-link to="/" class="linkcolor">1.inicio</router-link></td>
+            <td><router-link to="/" class="linkcolor">2.Registro</router-link></td>
+            <td><router-link to="/movies" class="linkcolor">3.ver estudiantes</router-link></td>
+            <td><router-link to="/agregar" class="linkcolor">4.Realizar Encuesta</router-link></td>
         </tr>
         <tr>
-            <td><router-link to="/ver">5.Alarmas I&D</router-link></td>
-            <td><router-link to="/ver">6.Curso D&</router-link></td>
-            <td><router-link to="/ver">7.reportes</router-link></td>
-            <td><router-link to="/ver">8.Ayuda</router-link></td>
+            <td><router-link to="/" class="linkcolor">5.Alarmas D&I</router-link></td>
+            <td><router-link to="/" class="linkcolor">6.Curso D&I</router-link></td>
+            <td><router-link to="/estadisticas" class="linkcolor">7.reportes</router-link></td>
+            <td><router-link to="/" class="linkcolor">8.Ayuda</router-link></td>
         </tr>
 
     </table>
@@ -75,5 +75,15 @@
   margin-top: 27%;
   margin-left: 0%;
   
+}
+.linkcolor{
+  color:rgb(17, 70, 42) !important;
+  font: bolder
+}
+table{
+    border: none;
+}
+.tab{
+    border: none;
 }
 </style>
