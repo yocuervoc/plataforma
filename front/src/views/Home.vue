@@ -1,18 +1,23 @@
 <template>
+
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <head>
+      <link rel="stylesheet" href="../assets/styles/estilos.css">
+    </head>
+    
+    <img src="../assets/universidad2.jpeg" class="imagen">
+    <h1 class="titulo">Software para la caracterizacion de la deserción y la inclusión D&I</h1>
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
+<style  scoped>
+.titulo{
+  color: rgb(17, 70, 42);
+  padding: 5%;
+  float: left;
 }
-</script>
+.imagen{
+  float: left;
+  padding-left: 10% 
+}
+</style>

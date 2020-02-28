@@ -1,6 +1,11 @@
 <template>
     <div class="container">
-        <h1>Estudiantes</h1>
+    <h1 class="titulo">Software para la caracterizacion de la deserción y la inclusión D&I</h1>
+    <img src="../assets/universidad2.jpeg" class="imagen">
+    
+    <br>
+    <br>
+    <h2>Estudiantes</h2>
         <table class="table">
   <thead>
     <tr>
@@ -21,7 +26,7 @@
 
   </tbody>
 </table>
-<router-link to="/agregar">Agregar peliculas</router-link>
+<router-link to="/estadisticas">Ver estadisticas</router-link>
     </div>
 </template>
 <script>
@@ -50,3 +55,16 @@ export default {
     }
 }
 </script>
+<style  scoped>
+.titulo{
+  position: relative;
+  color: rgb(17, 70, 42);
+  margin-left: 25%
+}
+.imagen{
+  position: relative;
+  
+  margin-top: -13%;
+  margin-left: -65%
+}
+</style>

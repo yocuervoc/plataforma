@@ -1,7 +1,9 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/estadistica.jpg">
-    <HelloWorld msg="Estadisticas"/>
+    
+    <HelloWorld msg="Software para la caracterizacion de la deserción y la inclusión D&I"/>
+    <h1>Software para la caracterizacion de la deserción y la inclusión D&I</h1>
+    <img alt="Vue logo" src="../assets/universidad2.jpeg">
     <vue-poll v-bind="options" @addvote="addVote"/>
   </div>
 </template>

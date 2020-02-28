@@ -1,0 +1,9 @@
+.imagen{
+    width: 50;
+    height: 50;
+    float: left;
+}
+
+.texto{
+    font-size: 30;
+}
